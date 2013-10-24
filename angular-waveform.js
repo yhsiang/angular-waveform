@@ -5,8 +5,8 @@ angular.module('ngWaveform', [])
   .directive('ngWaveform', function () {
     return {
       link: function (scope, element, attrs) {
-        var _width = attrs.width || 960
-        , _height = attrs.height || 100
+        var _width = attrs.width || element.parent().width()
+        , _height = attrs.height || element.parent().height()
         , _innercolor = attrs.innercolor || '#000'
         , _outercolor = attrs.outercolor || '#fff'
         , waveform = new Waveform({
