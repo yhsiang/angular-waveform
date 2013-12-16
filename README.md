@@ -35,3 +35,8 @@ OR
 # Example
 
 [Plunker Example](http://plnkr.co/edit/YhmlVinNJ8RYhxbLMQiX?p=preview)
+
+
+# License
+
+MIT
